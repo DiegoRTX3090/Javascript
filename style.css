@@ -1,9 +1,18 @@
 :root{
-    --cor-de-fundo:#1E1E1e;
+    --cor-de-fundo:#B1CCE3;
     --rosa: #6fff57;
     --botao-ativado: #3a3756;
     --botao-inativado:rgba(58, 55, 94, 0.5);
     --texto-fundo:rgba(58, 55, 94, 0.3);
 
 
+}
+body{
+    background-color: var(--cor-de-fundo);
+    color: #000000;
+    font-family: "Chakra Petch", sans-serif;
+}
+.botoes{
+    background-color: var(--botao-inativado);
+    color: #ffffff;
 }
